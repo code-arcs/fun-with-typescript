@@ -1,0 +1,26 @@
+{
+  "name": "fun-with-typescript",
+  "version": "1.0.0",
+  "description": "type script kata porject",
+  "entry point": "(index.js)",
+  "test command": "mocha",
+  "scripts": {
+    "prepublish": "tsc ./src/bowlingGameCalculator.ts --module commonjs ",
+    "pretest": "tsc ./test/bowlingGameCalculatorTest.ts --module commonjs",
+    "test": "mocha"
+  },
+  "keywords": [
+    "type",
+    "script",
+    "kata"
+  ],
+  "author": "sprengerjo",
+  "license": "ISC",
+  "dependencies": {
+    "tslint": "^3.2.1",
+    "typescript": "^1.7.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
