@@ -1,8 +1,7 @@
 {
   "name": "fun-with-typescript",
   "version": "1.0.0",
-  "description": "type script kata porject",
-  "entry point": "(index.js)",
+  "description": "type script kata project",
   "test command": "mocha",
   "scripts": {
     "prepublish": "tsc ./src/bowlingGameCalculator.ts --module commonjs ",
@@ -21,6 +20,7 @@
     "typescript": "^1.7.5"
   },
   "devDependencies": {
+    "expect.js": "^0.3.1",
     "mocha": "^2.3.4"
   }
 }
